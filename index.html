@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic CodeEditor</title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+    <!--With BEM you always name the block Element something meaningful-->
+    <div class="code-editor">
+        <h2>Basic Code Editor</h2>
+        <textarea class="code-editor__textarea" id="code"></textarea>
+        <div class="code-editor__buttons">
+            <button class="code-editor__button code-editor__button--copy" onclick="copyCode()">Copy</button>
+            <button class="code-editor__button code-editor__button--save" onclick="saveCode()">Save</button>
+            <button class="code-editor__button code-editor__button--lock" onclick="toggleLock()">Lock/Unlock</button>
+        </div>
+    </div>
+    <script src="JavaScript/Script.js"></script>
+</body>
+</html>

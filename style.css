@@ -1,0 +1,39 @@
+ /* Using BEM methodology for CSS */
+ /* code-editor block */
+ .code-editor {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+/*textarea element inside the code-editor block*/
+.code-editor__textarea {
+    width: 100%;
+    height: 300px;
+    border: 1px solid #ccc;
+    font-family: monospace;
+}
+/* code-editor__buttons block*/
+.code-editor__buttons {
+    margin-top: 10px;
+}
+/*code-editor__button inside the code-editor__buttons block*/
+.code-editor__button {
+    margin-right: 10px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+/*code-editor__button--copy inside the code-editor__buttons block*/
+.code-editor__button--copy {
+    background-color: #0c34e6;
+    color: #fff;
+}
+/*code-editor__button--save inside the code-editor__buttons block*/
+.code-editor__button--save {
+    background-color: #12c218;
+    color: #fff;
+}
+/*code-editor__button--lock inside the code-editor__buttons block*/
+.code-editor__button--lock {
+    background-color: #e24110;
+    color: #fff;
+}
